@@ -4,7 +4,7 @@ HiDPi-Daemon
 What is this
 ---
 
-Build for Solve "topleft issues" on Hanckintosh after turning on the HiDPi and after first wake.
+Build to solve "topleft issues" on Hanckintosh after turning on the HiDPi and after first wake.
 
 Like this:
 
