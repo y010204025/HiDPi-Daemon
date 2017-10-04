@@ -18,7 +18,7 @@ refer [Registering and unregistering for sleep and wake notifications](https://d
 
 When wake detected, the handler will reset the resolution(by callinng `/Applications/RDM.app/Contents/MacOS/SetResX`) for you automatically then the daemon will unload it self.(Just because you don't need it for second wake)
 
-__To make sure it works:__ Install `RDM.app` as `/Application/RDM.app`
+__To make sure it works:__ Install `RDM.app` as `/Application/RDM.app` Install `hidpi-daemon` as `/usr/local/bin/hidpi-daemon`
 
 Run at start by creating/Library/LaunchDaemons/com.edward-p.hidpi.daemon.plist" using `-o` option.
 You can change by changing the following:
